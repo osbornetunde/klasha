@@ -96,7 +96,7 @@ const Dashboard = () => {
                                             <Route
                                                 key={route.path}
                                                 path={route.path}
-                                                render={(props) => <route.component {...props} />}
+                                                render={() => <route.component />}
                                             />
                                         ) : null;
                                     })}
@@ -110,4 +110,4 @@ const Dashboard = () => {
     );
 };
 
-export default Dashboard;
+export default Dashboard
