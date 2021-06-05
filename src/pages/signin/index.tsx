@@ -2,11 +2,15 @@ import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { StyledSignin } from './styles';
 import Button from '../../Component/button';
+import BigLogo from "../../assets/vectors/BigLogo";
 
 const Signin = () => {
     const history = useHistory();
     return (
         <StyledSignin>
+            <div>
+                <BigLogo/>
+            </div>
             <Button
                 type="primary"
                 htmlType="submit"

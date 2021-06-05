@@ -25,7 +25,7 @@ const StyledAnalytics = styled.section`
                 font-size: 1.4rem;
                 font-weight: 400;
                 line-height: 17px;
-                color: var(--primary-green);
+                color: var(--secondary-green);
             }
         }
 
@@ -121,7 +121,7 @@ const StyledAnalytics = styled.section`
         }
       
       &:hover{
-        border: 1px solid var(--primary-green);
+        border: 1px solid var(--secondary-green);
       }
     }
     .row-start {
@@ -168,7 +168,7 @@ const StyledTable = styled.div`
         background: var(--primary-white);
     }
     .ant-table-tbody > tr:hover td:first-child {
-        border-left: 1px solid var(--primary-green);
+        border-left: 1px solid var(--secondary-green);
         border-radius: 0.5rem 0 0 0.5rem;
         //box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
     }

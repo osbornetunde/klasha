@@ -53,6 +53,7 @@ const GlobalStyle = createGlobalStyle`
     --primary-grey: #F5F5F5;
     --input-background: #FAFCFE;
     --primary-green: #3D8F83;
+    --secondary-green: #2C665D;
     --secondary-grey: #A6ABB2;
 
   }
