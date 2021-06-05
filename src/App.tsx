@@ -1,16 +1,18 @@
 import React from 'react'
-import {Switch} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 import PrivateRoute from "./routes/PrivateRoute";
 import Dashboard from "./features/dashboard";
+import Signin from "./pages/signin";
 
 function App() {
 
 
-  return (
-      <Switch>
-        <PrivateRoute path="/klasha" component={Dashboard} />
-      </Switch>
-  )
+    return (
+        <Switch>
+            <Route path={'/'} exact={true} component={Signin}/>
+            <PrivateRoute path="/klasha" component={Dashboard}/>
+        </Switch>
+    );
 }
 
 export default App
